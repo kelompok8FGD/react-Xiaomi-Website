@@ -14,8 +14,14 @@ import About from "./pages/About.jsx";
 import Agreement from "./pages/Agreement.jsx";
 import Leadership from "./pages/Leadership.jsx";
 import Privacy from "./pages/Privacy.jsx";
+import Poco from "./pages/Poco.jsx";
+import XiaomiPro from "./pages/XiaomiPro.jsx";
+import Checkout from "./pages/Checkout.jsx";
+import DetailPoco from "./pages/ProductDetails/Poco/index.jsx";
+import RedmiList from "./pages/Redmi.jsx";
 import PocoSection from "./components/molecule/Smartphone/PocoSection.jsx";
 import PocoList from "./components/molecule/Smartphone/PocoList.jsx";
+
 
 {
   /*IMPORTANT: Other routes must go above error route */
@@ -35,8 +41,12 @@ const router = createBrowserRouter([
       { path: "/Agreement", element: <Agreement /> },
       { path: "/Leadership", element: <Leadership /> },
       { path: "/Privacy", element: <Privacy /> },
-      { path: "/PocoSection", element: <PocoSection /> },
-      { path: "/PocoList", element: <PocoList /> },
+      { path: "/Poco", element: <Poco /> },
+      { path: "/redmi", element: <RedmiList /> },
+      { path: "/xiaomi", element: <XiaomiPro /> },
+      { path: "*", element: <Error /> },
+      { path: "/checkout", element: <Checkout /> },
+      { path: "/detail/:id", element: <DetailPoco /> },
     ],
   },
 ]);
