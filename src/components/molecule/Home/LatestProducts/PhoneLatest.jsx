@@ -8,14 +8,14 @@ const PhoneLatest = () => {
                     {/* 
                     <div className="site-banner site-banner--light site-banner--half"
                     data-ot-expose="{&quot;tip&quot;:{&quot;c&quot;:&quot;3122-2|1-banner&quot;},&quot;event&quot;:&quot;view_item_list&quot;}"
-                    role="button" tabIndex="-1">
+                    role="button" tabindex="-1">
                     <picture className="responsive-image site-banner__image site-banner__image">
 
                         <source media="(max-width: 720px)" type="image/jpeg"
-                            srcSet="//i02.appmifile.com/351_operator_id/05/05/2023/19d9489a4da7932901d5535c6bd94c4f.jpg" />
+                            srcset="//i02.appmifile.com/351_operator_id/05/05/2023/19d9489a4da7932901d5535c6bd94c4f.jpg" />
 
                         <source media="(min-width: 720px) and (max-width: 1024px)" type="image/jpeg"
-                            srcSet="//i02.appmifile.com/351_operator_id/05/05/2023/19d9489a4da7932901d5535c6bd94c4f.jpg" />
+                            srcset="//i02.appmifile.com/351_operator_id/05/05/2023/19d9489a4da7932901d5535c6bd94c4f.jpg" />
 
 
                         <img src="//i02.appmifile.com/351_operator_id/05/05/2023/19d9489a4da7932901d5535c6bd94c4f.jpg"
@@ -29,11 +29,11 @@ const PhoneLatest = () => {
                                     <a
                                 href="https://www.mi.co.id/id/product/redmi-note-12/?skupanel=1"
                                 className="cta-button-simple  site-banner__link"
-                                tabIndex="0"><span className="text-[#ff6900]">Beli sekarang</span><i
+                                tabindex="0"><span className="text-[#ff6900]">Beli sekarang</span><i
                                     className="micon micon-link-arrow text-[#ff6900]"></i></a>
                                 <a href="https://www.mi.co.id/id/product/redmi-note-12/"
                                 className="cta-button-simple site-banner__link"
-                                tabIndex="0"><span className="">Learn More</span><i
+                                tabindex="0"><span className="">Learn More</span><i
                                     className="micon micon-link-arrow"></i></a>
                                 </div>
                     </div>
@@ -41,18 +41,18 @@ const PhoneLatest = () => {
                     */}
                 
                 <picture
-          className=" flex h-[700px] mx-auto overflow-hidden absolute w-auto z-1"
+          class=" flex h-[700px] mx-auto overflow-hidden absolute w-auto z-1"
         >
           <source
             media="(max-width: 720px)"
             type="image/jpeg"
-            srcSet="//i02.appmifile.com/67_operator_id/13/06/2023/8f2a3ef42c1fdc7f22980c0e69bb876e.jpg"
+            srcset="//i02.appmifile.com/67_operator_id/13/06/2023/8f2a3ef42c1fdc7f22980c0e69bb876e.jpg"
           />
 
           <source
             media="(min-width: 720px) and (max-width: 1024px)"
             type="image/jpeg"
-            srcSet="//i02.appmifile.com/67_operator_id/13/06/2023/8f2a3ef42c1fdc7f22980c0e69bb876e.jpg"
+            srcset="//i02.appmifile.com/67_operator_id/13/06/2023/8f2a3ef42c1fdc7f22980c0e69bb876e.jpg"
           />
 
           <img

@@ -2,17 +2,17 @@
 const Icon = (props) => {
     const {redirect, classname} = props;
     return (
-        <div className="navigation__shortcut">
+        <ul className="navigation__group navigation__shortcut">
             <li className="navigation__item shortcut__item">
-                <div  role="button" tabIndex="0">
-                    <div className="shortcut__item--wrapper  ">
+                <div className="navigation__link" role="button" tabIndex="0">
+                    <div className="shortcut__item--wrapper">
                         <a href={redirect}>
-                            <i className={`micon micon-${classname} shortcut__icon px-[8px] lg:px-[16px]`}></i>
+                            <i className={`micon micon-${classname} shortcut__icon`}></i>
                         </a>
                     </div>
                 </div>
             </li>
-        </div>
+        </ul>
     )
 }
 
