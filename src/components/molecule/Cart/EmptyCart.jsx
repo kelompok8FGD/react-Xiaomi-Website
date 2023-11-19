@@ -2,8 +2,8 @@ import React from 'react'
 import CustomButton from '../../Atoms/WithCVA/CustomButton'
 const EmptyCart = () => {
   return (
-    <div id="cart-empty" class="w-full max-w-full">
-    <section class="w-full h-full flex flex-col p-20 items-center">
+    <div id="cart-empty" className="w-full max-w-full bg-[#f3f4f6]">
+    <section className="w-full h-full flex flex-col p-20 items-center">
       <img
         class="cart-empty-section__image"
         alt="Keranjang Anda kosong."
